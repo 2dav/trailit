@@ -1,0 +1,15 @@
+[package]
+name = "trailit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+core_affinity = "0.8"
+
+[features]
+default = []
+tests_api = []
+
+[[bin]]
+name = "bench"
+path = "bin/bench.rs"
